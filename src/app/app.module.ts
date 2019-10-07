@@ -13,6 +13,7 @@ MatCardModule,
 MatButtonModule,
 MatToolbarModule,
 MatExpansionModule
+
 } from '@angular/material';
 import { ReadComponent } from './read/read.component';
 import { CreateComponent } from './create/create.component';
@@ -35,8 +36,7 @@ import {FormsModule} from '@angular/forms';
     MatToolbarModule,
     MatExpansionModule,
     MatInputModule,
-    FormsModule
-
+    FormsModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
